@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>  
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" >Camisetas</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Deportivas</a></li>
+                  <li><a class="dropdown-item" href="#">Manga Corta</a></li>
+                  <li><a class="dropdown-item" href="#">Manga Larga</a></li> 
+                  <li><a class="dropdown-item" href="#">Estampadas</a></li>
+                  <li><a class="dropdown-item" href="#">Polos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Mas camisetas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Site Map</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>    
+      <div class="container mt-5">
+        <div class="row"  >
+            <div class= "col mt-3">
+                <div class="card" style="width: max-content">
+                    <img src="./Imagnes/Deportiva.png"class="card-img-center" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Camiseta Deportiva</h5>
+                      <p class="card-text">120.000</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class= "col mt-3">
+              <div class="card" style="width: max-content">
+                  <img src="./Imagnes/Manga_Corta.png" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Camisetas Manga Corta</h5>
+                    <p class="card-text">80.000</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+              </div>
+          </div><div class= "col mt-3">
+            <div class="card" style="width: max-content">
+                <img src="./Imagnes/Manga_Larga.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Camisetas Manga Larga</h5>
+                  <p class="card-text">90.000</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div><div class= "col mt-3">
+          <div class="card" style="width: max-content">
+              <img src="./Imagnes/Estampada.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Camisetas Estampadas</h5>
+                <p class="card-text">80.000</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div><div class= "col mt-3">
+            <div class="card" style="width: max-content">
+                <img src="./Imagnes/Polos.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Camisetas Polo</h5>
+                  <p class="card-text">90.000</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+          </div> 
+        </div>
+      </div>            
+    </body>
+    <footer class="text-center text-dark" style="background-color:rgb(78, 77, 77)">      
+      <div class="container mt-5">
+        <section>
+          <div calss = "text-center text-light p-1 ">Tienda de Camisetas Online!!!
+          </div>
+        </section>       
+      </div>      
+      <div class="text-center text-light p-1" style="background-color: rgb(88, 88, 88);">
+        © 2022 Copyright: 03 G58 C3 Desarrollo Web         
+      </div>      
+    </footer>       
+  </html>  
